@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionTambah"
+        android:title="Tambah Data" />
+    <item
+        android:id="@+id/actionData"
+        android:title="Data Pegawai" />
+    <item
+        android:id="@+id/actionHistory"
+        android:title="History Absensi" />
+    <item
+        android:id="@+id/actionLogout"
+        android:title="Logout" />
+</menu>

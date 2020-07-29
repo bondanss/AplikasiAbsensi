@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".TambahData">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtNip"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="NIP"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Nama"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Alamat"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtTelepon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Telepon"
+                android:inputType="text" />
+
+
+            <Button
+                android:id="@+id/actionSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Simpan"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

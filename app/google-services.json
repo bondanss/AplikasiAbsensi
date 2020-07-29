@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "805095614803",
+    "firebase_url": "https://aplikasiabsensi-7982c.firebaseio.com",
+    "project_id": "aplikasiabsensi-7982c",
+    "storage_bucket": "aplikasiabsensi-7982c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805095614803:android:6f94b6b720db263d40d9a6",
+        "android_client_info": {
+          "package_name": "pnj.uas.bondanss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805095614803-u0e41d8lt78nvssp7rgk3j8vf3no304a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2L6cowyfE_Db-6JSrFuOnwGLISBj7OYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805095614803-u0e41d8lt78nvssp7rgk3j8vf3no304a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

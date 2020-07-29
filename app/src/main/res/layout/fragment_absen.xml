@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.absen.AbsenFragment">
+
+    <Button
+        android:id="@+id/BTNabsen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Absen"
+        android:textColor="@color/colorAccent"
+        android:textColorLink="#FFFFFF"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="180dp"
+        android:background="@color/colorAccent"
+        android:text="ABSEN" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="45dp"
+        android:text="OPEN LOCATION"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="#FAF7F7" />
+
+
+</LinearLayout>
